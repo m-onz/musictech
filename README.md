@@ -7,6 +7,14 @@ music tech and home studio stuff.
 1. linux studio computer setup
 2. my plugins and instruments
 
+## `instruments`
+
+### `Yellotron`
+
+Mellotron emulation based on [this patch](https://guitarextended.wordpress.com/2014/11/11/yellotron-a-mellotron-with-pure-data/) converted to a camomile plugin (tested as a VST3 in Ardour).
+
+You need to download and add the sounds from [here](http://leisureland.us/mellotron.htm) as per [these instructions](https://patchstorage.com/mellowtron-rework/)
+
 ## `studio setup notes`
 
 I love music tech and music production, although I have a windows, ableton live 10 and max/msp set up I actually prefer using linux and pure data so here are my notes on setting all that up and using [Camomile](https://github.com/pierreguillot/Camomile) to create VST instruments and Effects plugins using pure data under the hood. This makes it really nice to collaborate on plugins and improve them without having to do any c++ programming.

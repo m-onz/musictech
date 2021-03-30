@@ -1,0 +1,8 @@
+param -name Pitch -label ms -min 0 -max 0.124 -default 0;
+param -name Release -label ms -min 0 -max 10000 -default 0;
+param -name Instrument -label ms -min 0 -max 10 -default 0;
+bus 0 2;
+code Yltrn;
+type instrument;
+image mellotron.jpeg;
+midiin true;
