@@ -1,21 +1,19 @@
-# musictech
+# `music tech`
 
 music tech and home studio stuff.
 
-## contents
+## `contents`
 
 1. linux studio computer setup
 2. my plugins and instruments
 
-## studio setup notes
+## `studio setup notes`
 
 I love music tech and music production, although I have a windows, ableton live 10 and max/msp set up I actually prefer using linux and pure data so here are my notes on setting all that up and using [Camomile](https://github.com/pierreguillot/Camomile) to create VST instruments and Effects plugins using pure data under the hood. This makes it really nice to collaborate on plugins and improve them without having to do any c++ programming.
 
 This setup should also work on windows and mac and using different DAWs (digital audio workstations).
 
-### linux computer
-
-## server setup
+### `linux computer setup`
 
 * install linux (I tend to use debian based ones like ubuntu)
 * my external usb sound card is class compliant and worked without drivers
@@ -36,18 +34,18 @@ cd ./plugins
 
 In ardour add `PATH_TO/camomile/plugins/build` to the VST3 path and re-scan.
 
-## creating and re-compiling plugins
+## `creating and re-compiling plugins`
 
 Add new plugins to the examples folder and re-run `plugins/camomile` to re-generate the plugin. 
 
-## using my instruments
+## `using my instruments`
 
 * clone the repo
 * add the plugins to ./plugins/examples and re-generate them `cd .. && ./camomile`
 * open the DAW and scan for VST3 plugins
 * check the plugins show up in the menu system
 
-## credits and respect
+## `credits`
 
 * [Miller Puckette](http://msp.ucsd.edu/software.html)
 * [Pierre Guillot](https://github.com/pierreguillot)
