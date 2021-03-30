@@ -20,7 +20,7 @@ This setup should also work on windows and mac and using different DAWs (digital
 * install linux (I tend to use debian based ones like ubuntu)
 * my sound card is class complient and worked without drivers (KOMPLETE AUDIO 6 by native instruments
 * download and donate to [Ardour](https://ardour.org/)
-* install pure data `sudo apt-get install pure-data`
+* install pure data `sudo apt-get install puredata`
 * install https://github.com/pierreguillot/Camomile
 
 ```
