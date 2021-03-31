@@ -17,16 +17,14 @@ You need to download and add the sounds from [here](http://leisureland.us/mellot
 
 ## `studio setup notes`
 
-I love music tech and music production, although I have a windows, ableton live 10 and max/msp set up I actually prefer using linux and pure data so here are my notes on setting all that up and using [Camomile](https://github.com/pierreguillot/Camomile) to create VST instruments and Effects plugins using pure data under the hood. This makes it really nice to collaborate on plugins and improve them without having to do any c++ programming.
-
-This setup should also work on windows and mac and using different DAWs (digital audio workstations).
+Here are my notes on using [Camomile](https://github.com/pierreguillot/Camomile) to create VST instruments and Effects plugins using pure data under the hood. This makes it really nice to collaborate on plugins.
 
 ### `linux computer setup`
 
-* install linux (I tend to use debian based ones like ubuntu)
+* install linux
 * my external usb sound card is class compliant and worked without drivers
 * download and donate to [Ardour](https://ardour.org/)
-* install pure data `sudo apt-get install puredata`
+* install pure data eg `sudo apt-get install puredata`
 * install https://github.com/pierreguillot/Camomile
 
 ```
